@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.9d5b29c0.chunk.css",
-    "main.js": "/static/js/main.d734c2c9.chunk.js",
-    "main.js.map": "/static/js/main.d734c2c9.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.203552f8.js",
-    "runtime-main.js.map": "/static/js/runtime-main.203552f8.js.map",
-    "static/js/2.9a58e9ad.chunk.js": "/static/js/2.9a58e9ad.chunk.js",
-    "static/js/2.9a58e9ad.chunk.js.map": "/static/js/2.9a58e9ad.chunk.js.map",
-    "static/js/3.6f3d9e05.chunk.js": "/static/js/3.6f3d9e05.chunk.js",
-    "static/js/3.6f3d9e05.chunk.js.map": "/static/js/3.6f3d9e05.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.9d5b29c0.chunk.css.map": "/static/css/main.9d5b29c0.chunk.css.map",
-    "static/js/2.9a58e9ad.chunk.js.LICENSE.txt": "/static/js/2.9a58e9ad.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/static/media/logo.6ce24c58.svg"
+    "main.css": "/mblasque.github.io/static/css/main.9d5b29c0.chunk.css",
+    "main.js": "/mblasque.github.io/static/js/main.d734c2c9.chunk.js",
+    "main.js.map": "/mblasque.github.io/static/js/main.d734c2c9.chunk.js.map",
+    "runtime-main.js": "/mblasque.github.io/static/js/runtime-main.68f3cac8.js",
+    "runtime-main.js.map": "/mblasque.github.io/static/js/runtime-main.68f3cac8.js.map",
+    "static/js/2.9a58e9ad.chunk.js": "/mblasque.github.io/static/js/2.9a58e9ad.chunk.js",
+    "static/js/2.9a58e9ad.chunk.js.map": "/mblasque.github.io/static/js/2.9a58e9ad.chunk.js.map",
+    "static/js/3.6f3d9e05.chunk.js": "/mblasque.github.io/static/js/3.6f3d9e05.chunk.js",
+    "static/js/3.6f3d9e05.chunk.js.map": "/mblasque.github.io/static/js/3.6f3d9e05.chunk.js.map",
+    "index.html": "/mblasque.github.io/index.html",
+    "static/css/main.9d5b29c0.chunk.css.map": "/mblasque.github.io/static/css/main.9d5b29c0.chunk.css.map",
+    "static/js/2.9a58e9ad.chunk.js.LICENSE.txt": "/mblasque.github.io/static/js/2.9a58e9ad.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/mblasque.github.io/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.203552f8.js",
+    "static/js/runtime-main.68f3cac8.js",
     "static/js/2.9a58e9ad.chunk.js",
     "static/css/main.9d5b29c0.chunk.css",
     "static/js/main.d734c2c9.chunk.js"
