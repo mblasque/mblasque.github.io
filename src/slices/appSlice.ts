@@ -1,15 +1,23 @@
 import { createSlice, PayloadAction } from '@reduxjs/toolkit';
 
-interface AppSlice {
+export type AppSlice = {
     language: string;
 }
 
-const todosSlice = createSlice({
-    name: 'appslice',
-    initialState: [] as AppSlice[],
-    reducers: {
-      setAppSlice: (state, action: PayloadAction<AppSlice>) => {
-          state.push(action.payload)
-        },
+export const initialState: AppSlice = {
+  language: "pt"
+}
+
+export const appslice = createSlice({
+  name: 'app',
+  initialState: initialState,
+  reducers: {
+    setApp: (state, action: PayloadAction<AppSlice>) => {
+        return { ...state, ...action.payload}
       },
-  })
+    },
+})
+
+export const { setApp } = appslice.actions;
+
+export default appslice.reducer;

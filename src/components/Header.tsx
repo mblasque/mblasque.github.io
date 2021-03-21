@@ -9,19 +9,24 @@ import {
   NavItem,
   NavLink,
 } from "reactstrap";
-import { useState } from "react";
+import { useState, FC } from "react";
+import { AppSlice } from "../slices/appSlice";
 
 import "./Header.scss";
 
-const Header = ({}) => {
+type HeaderProps = {
+  app: AppSlice;
+};
+
+const Header: FC<HeaderProps> = ({ app }) => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggle = () => setIsOpen(!isOpen);
 
   const menuItems = [
-    { key: "about", value: labels("about") },
-    { key: "experience", value: labels("experience") },
-    { key: "education", value: labels("education") },
+    { key: "about", value: labels("about", app.language) },
+    { key: "experience", value: labels("experience", app.language) },
+    { key: "education", value: labels("education", app.language) },
   ];
 
   return (
@@ -29,17 +34,17 @@ const Header = ({}) => {
       <Navbar color="light" light expand="md">
         <AppContainer>
           <NavbarToggler onClick={toggle} />
-          <LanguageSelector className="d-md-none" />
+          <LanguageSelector app={app} className="d-md-none" />
           <Collapse isOpen={isOpen} navbar>
             <Nav className="mr-auto" navbar>
               {menuItems.map((item) => (
-                <NavItem>
+                <NavItem key={item.key}>
                   <NavLink href={`#/${item.key}`}>{item.value}</NavLink>
                 </NavItem>
               ))}
             </Nav>
           </Collapse>
-          <LanguageSelector className="d-none d-md-block" />
+          <LanguageSelector app={app} className="d-none d-md-block" />
         </AppContainer>
       </Navbar>
     </div>
