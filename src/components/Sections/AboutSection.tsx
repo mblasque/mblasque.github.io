@@ -31,9 +31,9 @@ const AboutSection = ({}) => {
   ];
 
   return (
-    <section className="about-section">
+    <section className="about-section" data-aos="fade-right">
       <Row>
-        <Col md={6}>
+        <Col md={6} data-aos="fade-right">
           <img src={me} />
           <h1>Maurício Blasque</h1>
           <h3>Software Engineer</h3>
