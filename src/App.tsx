@@ -1,10 +1,9 @@
-import Header from "./components/Header";
-import { Container } from "reactstrap";
+import Home from "./Pages/Home";
 
 function App() {
   return (
     <div className="App">
-      <Header />
+      <Home />
     </div>
   );
 }

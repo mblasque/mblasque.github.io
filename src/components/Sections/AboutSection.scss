@@ -1,0 +1,32 @@
+.about-section {
+  margin: auto;
+  text-align: center;
+
+  a {
+    color: black;
+
+    &:hover {
+      color: black;
+    }
+  }
+
+  i {
+    font-size: 32px;
+    margin: 5px;
+  }
+
+  img {
+    width: 50%;
+    border-radius: 50%;
+  }
+
+  .about-me {
+    img {
+      width: 20%;
+    }
+
+    .badges {
+      margin-top: 20px;
+    }
+  }
+}

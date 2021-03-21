@@ -1,7 +1,7 @@
 export const _labels = [
     { "key": "about", "en": "About", "pt": "Sobre mim" },
     { "key": "education", "en": "Education", "pt": "Formação Acadêmica" },
-    { "key": "experience", "en": "Experiecne", "pt": "Experience" },
+    { "key": "experience", "en": "Experiecne", "pt": "Experiência" },
 ];
 
 export const labels = (key: string) => {
