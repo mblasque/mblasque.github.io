@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/mblasque.github.io/static/css/main.1a00a065.chunk.css",
-    "main.js": "/mblasque.github.io/static/js/main.e25adcc2.chunk.js",
-    "main.js.map": "/mblasque.github.io/static/js/main.e25adcc2.chunk.js.map",
-    "runtime-main.js": "/mblasque.github.io/static/js/runtime-main.958ae83f.js",
-    "runtime-main.js.map": "/mblasque.github.io/static/js/runtime-main.958ae83f.js.map",
-    "static/css/2.4c97ca4f.chunk.css": "/mblasque.github.io/static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.3cccbfa4.chunk.js": "/mblasque.github.io/static/js/2.3cccbfa4.chunk.js",
-    "static/js/2.3cccbfa4.chunk.js.map": "/mblasque.github.io/static/js/2.3cccbfa4.chunk.js.map",
-    "static/js/3.74544dc2.chunk.js": "/mblasque.github.io/static/js/3.74544dc2.chunk.js",
-    "static/js/3.74544dc2.chunk.js.map": "/mblasque.github.io/static/js/3.74544dc2.chunk.js.map",
+    "main.css": "/mblasque.github.io/static/css/main.2079e7aa.chunk.css",
+    "main.js": "/mblasque.github.io/static/js/main.888eb66d.chunk.js",
+    "main.js.map": "/mblasque.github.io/static/js/main.888eb66d.chunk.js.map",
+    "runtime-main.js": "/mblasque.github.io/static/js/runtime-main.5cee4f1f.js",
+    "runtime-main.js.map": "/mblasque.github.io/static/js/runtime-main.5cee4f1f.js.map",
+    "static/css/2.e4e35064.chunk.css": "/mblasque.github.io/static/css/2.e4e35064.chunk.css",
+    "static/js/2.6ae253b0.chunk.js": "/mblasque.github.io/static/js/2.6ae253b0.chunk.js",
+    "static/js/2.6ae253b0.chunk.js.map": "/mblasque.github.io/static/js/2.6ae253b0.chunk.js.map",
+    "static/js/3.a9c51931.chunk.js": "/mblasque.github.io/static/js/3.a9c51931.chunk.js",
+    "static/js/3.a9c51931.chunk.js.map": "/mblasque.github.io/static/js/3.a9c51931.chunk.js.map",
     "index.html": "/mblasque.github.io/index.html",
-    "static/css/2.4c97ca4f.chunk.css.map": "/mblasque.github.io/static/css/2.4c97ca4f.chunk.css.map",
-    "static/css/main.1a00a065.chunk.css.map": "/mblasque.github.io/static/css/main.1a00a065.chunk.css.map",
-    "static/js/2.3cccbfa4.chunk.js.LICENSE.txt": "/mblasque.github.io/static/js/2.3cccbfa4.chunk.js.LICENSE.txt",
+    "static/css/2.e4e35064.chunk.css.map": "/mblasque.github.io/static/css/2.e4e35064.chunk.css.map",
+    "static/css/main.2079e7aa.chunk.css.map": "/mblasque.github.io/static/css/main.2079e7aa.chunk.css.map",
+    "static/js/2.6ae253b0.chunk.js.LICENSE.txt": "/mblasque.github.io/static/js/2.6ae253b0.chunk.js.LICENSE.txt",
     "static/media/me.e3baad79.png": "/mblasque.github.io/static/media/me.e3baad79.png",
     "static/media/psmi.a894ba74.png": "/mblasque.github.io/static/media/psmi.a894ba74.png",
     "static/media/psmii.61dcf3eb.png": "/mblasque.github.io/static/media/psmii.61dcf3eb.png",
     "static/media/sps.271a8175.png": "/mblasque.github.io/static/media/sps.271a8175.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.958ae83f.js",
-    "static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.3cccbfa4.chunk.js",
-    "static/css/main.1a00a065.chunk.css",
-    "static/js/main.e25adcc2.chunk.js"
+    "static/js/runtime-main.5cee4f1f.js",
+    "static/css/2.e4e35064.chunk.css",
+    "static/js/2.6ae253b0.chunk.js",
+    "static/css/main.2079e7aa.chunk.css",
+    "static/js/main.888eb66d.chunk.js"
   ]
 }
