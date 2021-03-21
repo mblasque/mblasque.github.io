@@ -1,0 +1,21 @@
+.language-selector {
+  border: solid 1px;
+  border-radius: 21px;
+
+  img {
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+    border-radius: 50%;
+    opacity: 0.2;
+
+    &.selected {
+      opacity: 1;
+    }
+  }
+
+  span {
+    width: 25px;
+    display: inline-block;
+  }
+}
