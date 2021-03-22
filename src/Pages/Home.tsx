@@ -1,10 +1,12 @@
-import { FC } from "react";
+import React, { FC } from "react";
 import AppContainer from "../components/AppContainer";
 import AboutSection from "../components/Sections/AboutSection";
 import { AppSlice } from "../slices/appSlice";
 import { RootState } from "../store";
 import Header from "./../components/Header";
 import { connect } from "react-redux";
+import ExperienceSection from "../components/Sections/ExperienceSection";
+import { Col, Row } from "reactstrap";
 
 type StateProps = {
   app: AppSlice;
@@ -15,7 +17,14 @@ const Home: FC<StateProps> = ({ app }) => {
     <>
       <Header app={app} />
       <AppContainer>
-        <AboutSection />
+        <Row>
+          <AboutSection />
+        </Row>
+        <Row>
+          <Col>
+            <ExperienceSection />
+          </Col>
+        </Row>
       </AppContainer>
     </>
   );

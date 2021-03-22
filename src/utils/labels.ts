@@ -9,7 +9,13 @@ export const _labels = [
         pt: "Bacharel em Engenharia da Computação, pós-graduado em Gerenciamento de Projetos e cursando MBA em Data Science and Analytics pela USP. Nove anos de experiência em análise e desenvolvimento de sistemas. Experiência de sete anos desenvolvendo software utilizando o framework Scrum. Vivência internacional de quatro meses na cidade de Gold Coast, na Austrália, para o aperfeiçoamento da língua inglesa. Professional Scrum Master (PSM I e II) e Scaled Professional Scrum (SPS) certificado pela Scrum.org."
     },
     { key: "name", en: "Maurício Blasque", pt: "Maurício Blasque" },
-    { key: "softwareEnginner", en: "Software Enginner", pt: "Engenheiro de Software" }
+    { key: "softwareEngineer", en: "Software Enginner", pt: "Engenheiro de Software" },
+    { key: "metaInterval", en: "Oct/2020 - Now", pt: "Out/2020 - Hoje" },
+    { key: "invilliaInterval", en: "Apr/2020 - Oct/2020", pt: "Abr/2020 - Out/2020" },
+    { key: "appInterval1", en: "Jan/2020 - Apr/2020", pt: "Jan/2020 - Abr/2020" },
+    { key: "appInterval2", en: "Jun/2016 - Jan/2020", pt: "Jun/2016 - Jan/2020" },
+    { key: "techLead", en: "Tech Lead", pt: "Líder Técnico" },
+    { key: "fullStack", en: "Full Stack", pt: "Full Stack" },
 ];
 
 export const labels = (key: string | undefined, language: string) => {
