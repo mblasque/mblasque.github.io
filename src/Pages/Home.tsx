@@ -21,7 +21,7 @@ const Home: FC<StateProps> = ({ app }) => {
           <AboutSection />
         </Row>
         <Row>
-          <Col>
+          <Col xl={6}>
             <ExperienceSection />
           </Col>
         </Row>
