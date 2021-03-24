@@ -22,18 +22,16 @@ const Home: FC<StateProps> = ({ app }) => {
         <Row>
           <Col md={6}>
             <AboutSection />
+            <ExperienceSection />
           </Col>
           <Col md={6}>
             <SkillsSection />
+            <EducationSection />
           </Col>
         </Row>
         <Row>
-          <Col>
-            <EducationSection />
-          </Col>
-          <Col xs={12}>
-            <ExperienceSection />
-          </Col>
+          <Col></Col>
+          <Col xs={12}></Col>
         </Row>
       </AppContainer>
     </>

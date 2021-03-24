@@ -10,9 +10,9 @@ import "./AboutSection.scss";
 
 const AboutSection = () => {
   return (
-    <section className="about-section" data-aos="fade-right">
+    <section className="about-section">
       <Row>
-        <Col data-aos="fade-right">
+        <Col>
           <div className="box">
             <img alt="me-img" src={me} />
             <h1>
