@@ -1,5 +1,5 @@
 import { Col, Row } from "reactstrap";
-import { Experience } from "./../../personalInfos";
+import { Education } from "./../../personalInfos";
 import Label from "./../Label";
 import {
   Timeline,
@@ -12,32 +12,32 @@ import {
 } from "@material-ui/lab";
 import Typography from "@material-ui/core/Typography";
 
-import "./ExperienceSection.scss";
+import "./EducationSection.scss";
 
-const ExperienceSection = () => {
+const EducationSection = () => {
   return (
-    <section className="experience-section">
+    <section className="education-section">
       <div className="box">
-        <h2>Experiência Profissional</h2>
+        <h2>Formação Acadêmica</h2>
         <Row>
           <Col>
             <Timeline>
-              {Experience.map((item, index) => (
+              {Education.map((item, index) => (
                 <TimelineItem key={item.key}>
                   <TimelineOppositeContent>
-                    <Label labelKey={item.interval} />
+                    {item.interval}
                   </TimelineOppositeContent>
                   <TimelineSeparator>
                     <TimelineDot color="primary"></TimelineDot>
-                    {!(index === Experience.length - 1) && (
-                      <TimelineConnector />
-                    )}
+                    {!(index === Education.length - 1) && <TimelineConnector />}
                   </TimelineSeparator>
                   <TimelineContent>
                     <div>
-                      <Typography>{item.company}</Typography>
                       <Typography>
-                        <Label labelKey={item.position} />
+                        <Label labelKey={item.school} />
+                      </Typography>
+                      <Typography>
+                        <Label labelKey={item.course} />
                       </Typography>
                     </div>
                   </TimelineContent>
@@ -51,4 +51,4 @@ const ExperienceSection = () => {
   );
 };
 
-export default ExperienceSection;
+export default EducationSection;

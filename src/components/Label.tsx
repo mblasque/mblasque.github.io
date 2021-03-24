@@ -18,7 +18,9 @@ type Props = StateProps & LabelProps;
 const Label: FC<Props> = ({ app, labelKey, className }) => {
   return (
     <>
-      <span className={`${className}`}>{labels(labelKey, app.language)}</span>
+      <span className={`${className ?? ""}`}>
+        {labels(labelKey, app.language)}
+      </span>
     </>
   );
 };

@@ -6,6 +6,8 @@ import { RootState } from "../store";
 import Header from "./../components/Header";
 import { connect } from "react-redux";
 import ExperienceSection from "../components/Sections/ExperienceSection";
+import EducationSection from "../components/Sections/EducationSection";
+import SkillsSection from "../components/Sections/SkillsSection";
 import { Col, Row } from "reactstrap";
 
 type StateProps = {
@@ -18,10 +20,18 @@ const Home: FC<StateProps> = ({ app }) => {
       <Header app={app} />
       <AppContainer>
         <Row>
-          <AboutSection />
+          <Col md={6}>
+            <AboutSection />
+          </Col>
+          <Col md={6}>
+            <SkillsSection />
+          </Col>
         </Row>
         <Row>
-          <Col xl={6}>
+          <Col>
+            <EducationSection />
+          </Col>
+          <Col xs={12}>
             <ExperienceSection />
           </Col>
         </Row>

@@ -1,0 +1,18 @@
+@import "~bootstrap/scss/_functions";
+@import "~bootstrap/scss/_variables";
+@import "~bootstrap/scss/mixins/_breakpoints";
+
+.skills-section {
+  .td-bar {
+    width: 100%;
+  }
+
+  td {
+    padding-right: 20px;
+    text-align: right;
+  }
+
+  @include media-breakpoint-up(md) {
+    margin-top: 50%;
+  }
+}

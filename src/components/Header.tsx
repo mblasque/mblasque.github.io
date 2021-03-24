@@ -30,7 +30,7 @@ const Header: FC<HeaderProps> = ({ app }) => {
   ];
 
   return (
-    <div>
+    <section className="header-section">
       <Navbar color="light" light expand="md">
         <AppContainer>
           <NavbarToggler onClick={toggle} />
@@ -47,7 +47,7 @@ const Header: FC<HeaderProps> = ({ app }) => {
           <LanguageSelector app={app} className="d-none d-md-block" />
         </AppContainer>
       </Navbar>
-    </div>
+    </section>
   );
 };
 
