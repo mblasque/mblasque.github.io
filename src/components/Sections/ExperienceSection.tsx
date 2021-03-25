@@ -29,17 +29,21 @@ const ExperienceSection = () => {
                   </TimelineOppositeContent>
                   <TimelineSeparator>
                     <TimelineDot color="primary"></TimelineDot>
-                    {!(index === Experience.length - 1) && (
-                      <TimelineConnector />
-                    )}
+
+                    <TimelineConnector />
                   </TimelineSeparator>
                   <TimelineContent>
                     <div className="timeline-content">
+                      <i className={`fa fa-building`} />
                       {item.company}
                       <br />
+                      <i className={`fa fa-desktop`} />
                       <Label labelKey={item.position} />
                       <br />
-                      {item.site}
+                      <i className={`fa fa-link`} />
+                      <a href={`${item.site}`} target="_blank" rel="noreferrer">
+                        {item.site}
+                      </a>
                     </div>
                   </TimelineContent>
                 </TimelineItem>

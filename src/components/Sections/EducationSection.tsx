@@ -29,7 +29,7 @@ const EducationSection = () => {
                   </TimelineOppositeContent>
                   <TimelineSeparator>
                     <TimelineDot color="primary"></TimelineDot>
-                    {!(index === Education.length - 1) && <TimelineConnector />}
+                    <TimelineConnector />
                   </TimelineSeparator>
                   <TimelineContent>
                     <div>

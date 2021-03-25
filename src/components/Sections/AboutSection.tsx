@@ -28,7 +28,7 @@ const AboutSection = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                <i className={`fa ${media.icon}`}></i>
+                <i className={`fa ${media.icon}`} />
               </a>
             ))}
             <div className="about-me">

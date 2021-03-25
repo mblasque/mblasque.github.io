@@ -6,12 +6,12 @@ const socialMediaList = [
   ];
 
   const experienceList = [
-    { key: "meta", company: "Meta", interval: "metaInterval", position: "softwareEngineer", site: "www.meta.com.br" },
-    { key: "invillia", company: "Invillia", interval: "invilliaInterval", position: "softwareEngineer", site: "www.invillia.com" },
-    { key: "app1", company: "App Sistemas", interval: "appInterval1", position: "techLead", site: "www.appsistemas.com.br" },
-    { key: "app2", company: "App Sistemas", interval: "appInterval2", position: "fullStack", site: "www.appsistemas.com.br" },
-    { key: "fmz", company: "FMZ", interval: "fmzInterval", position: "delphiDev", site: "www.fmz.com.br" },
-    { key: "automasoft", company: "Automasoft", interval: "automasoftInterval", position: "delphiDev", site: "http://www.automasoft.com.br/" },
+    { key: "meta", company: "Meta", interval: "metaInterval", position: "softwareEngineer", site: "https://www.meta.com.br/" },
+    { key: "invillia", company: "Invillia", interval: "invilliaInterval", position: "softwareEngineer", site: "https://www.invillia.com" },
+    { key: "app1", company: "App Sistemas", interval: "appInterval1", position: "techLead", site: "https://www.appsistemas.com.br" },
+    { key: "app2", company: "App Sistemas", interval: "appInterval2", position: "fullStack", site: "https://www.appsistemas.com.br" },
+    { key: "fmz", company: "FMZ", interval: "fmzInterval", position: "delphiDev", site: "http://www.fmz.com.br" },
+    { key: "automasoft", company: "Automasoft", interval: "automasoftInterval", position: "delphiDev", site: "https://www.automasoft.com.br" },
   ];
 
   const educationList = [
