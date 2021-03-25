@@ -28,10 +28,15 @@ const Header: FC<HeaderProps> = ({ app }) => {
   const menuItems = [
     { key: "about", value: labels("about", app.language) },
     { key: "experience", value: labels("experience", app.language) },
+    { key: "skills", value: labels("skills", app.language) },
     { key: "education", value: labels("education", app.language) },
   ];
 
   const goTo = (section: string) => {
+    // const element = document.getElementById(section);
+
+    // window.scrollTo(0, (element?.scrollHeight ?? 0) - 80);
+
     document.getElementById(section)?.scrollIntoView();
 
     toggle();

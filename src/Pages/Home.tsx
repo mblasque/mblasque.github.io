@@ -11,20 +11,22 @@ const Home = () => {
     <>
       <Header />
       <AppContainer>
-        <Row>
-          <Col md={6}>
-            <AboutSection />
-            <EducationSection />
-          </Col>
-          <Col md={6}>
-            <SkillsSection />
-            <ExperienceSection />
-          </Col>
-        </Row>
-        <Row>
-          <Col></Col>
-          <Col xs={12}></Col>
-        </Row>
+        <div>
+          <Row>
+            <Col md={6}>
+              <AboutSection />
+              <EducationSection />
+            </Col>
+            <Col md={6}>
+              <SkillsSection />
+              <ExperienceSection />
+            </Col>
+          </Row>
+          <Row>
+            <Col></Col>
+            <Col xs={12}></Col>
+          </Row>
+        </div>
       </AppContainer>
     </>
   );

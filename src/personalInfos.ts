@@ -15,9 +15,9 @@ const socialMediaList = [
   ];
 
   const educationList = [
-    { key: "usp", school: "usp", interval: "2020 - 2022", course: "uspCourse" },
-    { key: "senac", school: "senac", interval: "2015 - 2017", course: "senacCourse" },
-    { key: "unirp", school: "unirp", interval: "2010 - 2014", course: "unirpCourse"}
+    { key: "usp", school: "usp", interval: "2022", course: "uspCourse" },
+    { key: "senac", school: "senac", interval: "2017", course: "senacCourse" },
+    { key: "unirp", school: "unirp", interval: "2014", course: "unirpCourse"}
   ];
 
   const certificationList = [
@@ -29,6 +29,8 @@ const socialMediaList = [
 
   const skillList = [
     { key: "netCore", desc: ".NET", level: 90 },
+    { key: "html", desc: "HTML", level: 70 },
+    { key: "css", desc: "CSS", level: 50 },
     { key: "javaScript", desc: "JavaScript", level: 70 },
     { key: "react", desc: "React JS", level: 60 },
     { key: "angular", desc: "Angular", level: 50 },
