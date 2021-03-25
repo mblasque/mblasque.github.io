@@ -6,8 +6,8 @@ const socialMediaList = [
   ];
 
   const experienceList = [
-    { key: "meta", company: "Meta", interval: "metaInterval", position: "softwareEngineer", site: "https://www.meta.com.br/" },
-    { key: "invillia", company: "Invillia", interval: "invilliaInterval", position: "softwareEngineer", site: "https://www.invillia.com" },
+    { key: "meta", company: "Meta | Dell Technologies", interval: "metaInterval", position: "softwareEngineer", site: "https://www.meta.com.br/" },
+    { key: "invillia", company: "Invillia | Via Varejo", interval: "invilliaInterval", position: "softwareEngineer", site: "https://www.invillia.com" },
     { key: "app1", company: "App Sistemas", interval: "appInterval1", position: "techLead", site: "https://www.appsistemas.com.br" },
     { key: "app2", company: "App Sistemas", interval: "appInterval2", position: "fullStack", site: "https://www.appsistemas.com.br" },
     { key: "fmz", company: "FMZ", interval: "fmzInterval", position: "delphiDev", site: "http://www.fmz.com.br" },

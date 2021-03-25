@@ -31,6 +31,12 @@ const Header: FC<HeaderProps> = ({ app }) => {
     { key: "education", value: labels("education", app.language) },
   ];
 
+  const goTo = (section: string) => {
+    document.getElementById(section)?.scrollIntoView();
+
+    toggle();
+  };
+
   return (
     <section className="header-section">
       <Navbar color="light" light expand="md">
@@ -41,7 +47,7 @@ const Header: FC<HeaderProps> = ({ app }) => {
             <Nav className="mr-auto" navbar>
               {menuItems.map((item) => (
                 <NavItem key={item.key}>
-                  <NavLink href={`#/${item.key}`}>{item.value}</NavLink>
+                  <NavLink onClick={() => goTo(item.key)}>{item.value}</NavLink>
                 </NavItem>
               ))}
             </Nav>

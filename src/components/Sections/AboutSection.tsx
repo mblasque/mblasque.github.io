@@ -10,7 +10,7 @@ import "./AboutSection.scss";
 
 const AboutSection = () => {
   return (
-    <section className="about-section">
+    <section id="about" className="about-section">
       <Row>
         <Col>
           <div className="box">

@@ -16,7 +16,7 @@ import "./EducationSection.scss";
 
 const EducationSection = () => {
   return (
-    <section className="education-section">
+    <section id="education" className="education-section">
       <div className="box">
         <h2>Formação Acadêmica</h2>
         <Row>

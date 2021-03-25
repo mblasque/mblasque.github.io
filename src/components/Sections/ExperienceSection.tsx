@@ -10,13 +10,12 @@ import {
   TimelineOppositeContent,
   TimelineDot,
 } from "@material-ui/lab";
-import Typography from "@material-ui/core/Typography";
 
 import "./ExperienceSection.scss";
 
 const ExperienceSection = () => {
   return (
-    <section className="experience-section">
+    <section id="experience" className="experience-section">
       <div className="box">
         <h2>Experiência Profissional</h2>
         <Row>

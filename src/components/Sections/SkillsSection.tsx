@@ -6,7 +6,7 @@ import "./SkillsSection.scss";
 
 const SkillsSection = () => {
   return (
-    <section className="skills-section">
+    <section id="skills" className="skills-section">
       <div className="box">
         <h2>Skills</h2>
         <Row>
