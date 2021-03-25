@@ -34,11 +34,12 @@ const ExperienceSection = () => {
                     )}
                   </TimelineSeparator>
                   <TimelineContent>
-                    <div>
-                      <Typography>{item.company}</Typography>
-                      <Typography>
-                        <Label labelKey={item.position} />
-                      </Typography>
+                    <div className="timeline-content">
+                      {item.company}
+                      <br />
+                      <Label labelKey={item.position} />
+                      <br />
+                      {item.site}
                     </div>
                   </TimelineContent>
                 </TimelineItem>

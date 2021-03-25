@@ -13,6 +13,8 @@ import { useState, FC } from "react";
 import { AppSlice } from "../slices/appSlice";
 
 import "./Header.scss";
+import { RootState } from "../store";
+import { connect } from "react-redux";
 
 type HeaderProps = {
   app: AppSlice;
@@ -51,4 +53,10 @@ const Header: FC<HeaderProps> = ({ app }) => {
   );
 };
 
-export default Header;
+const mapStateToProps = (state: RootState): HeaderProps => {
+  return {
+    app: state.app,
+  };
+};
+
+export default connect(mapStateToProps)(Header);

@@ -8,3 +8,13 @@
 h2 {
   text-align: center;
 }
+
+.MuiTimelineOppositeContent-root {
+  font-family: fantasy;
+  color: gray;
+  max-width: 100px;
+}
+
+.MuiTimelineContent-root {
+  padding-top: 1px !important;
+}
