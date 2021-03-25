@@ -12,11 +12,11 @@ const Home = () => {
       <Header />
       <AppContainer>
         <Row>
-          <Col lg={6}>
+          <Col md={6}>
             <AboutSection />
             <EducationSection />
           </Col>
-          <Col lg={6}>
+          <Col md={6}>
             <SkillsSection />
             <ExperienceSection />
           </Col>

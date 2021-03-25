@@ -1,4 +1,10 @@
 .experience-section {
   //margin: auto;
   //text-align: center;
+  .timeline-content {
+    width: 95%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
 }
