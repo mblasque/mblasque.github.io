@@ -6,12 +6,14 @@ import EducationSection from "../components/Sections/EducationSection";
 import SkillsSection from "../components/Sections/SkillsSection";
 import { Col, Row } from "reactstrap";
 
+import "./Home.scss";
+
 const Home = () => {
   return (
     <>
       <Header />
       <AppContainer>
-        <div>
+        <div className="body">
           <Row>
             <Col md={6}>
               <AboutSection />

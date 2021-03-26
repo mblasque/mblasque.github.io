@@ -3,6 +3,8 @@
 @import "~bootstrap/scss/mixins/_breakpoints";
 
 .skills-section {
+  scroll-margin-top: 70px;
+
   .td-bar {
     width: 100%;
   }
@@ -10,9 +12,5 @@
   td {
     padding-right: 20px;
     text-align: right;
-  }
-
-  @include media-breakpoint-up(md) {
-    margin-top: 100px;
   }
 }
