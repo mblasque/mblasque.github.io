@@ -33,10 +33,6 @@ const Header: FC<HeaderProps> = ({ app }) => {
   ];
 
   const goTo = (section: string) => {
-    // const element = document.getElementById(section);
-
-    // window.scrollTo(0, (element?.scrollHeight ?? 0) - 80);
-
     document.getElementById(section)?.scrollIntoView();
 
     toggle();

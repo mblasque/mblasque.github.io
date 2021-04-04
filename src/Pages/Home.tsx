@@ -27,11 +27,6 @@ const Home = () => {
             <Col></Col>
             <Col xs={12}></Col>
           </Row>
-          <Row>
-            <Col>
-              <GithubSection />
-            </Col>
-          </Row>
         </div>
       </AppContainer>
     </>
